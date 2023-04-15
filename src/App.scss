@@ -1,0 +1,102 @@
+#root {
+  max-width: 365px;
+  margin: 0 auto;
+  padding: 8px;
+  text-align: center;
+  font-family: PingFangSC-Regular, sans-serif;
+}
+
+.App {
+  .dec {
+    padding: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #3abff8;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+    .img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+    .title {
+      color: white;
+      font-size: 40px;
+    }
+  }
+
+  .info {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #4c0009;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: #eee;
+
+    .title {
+      color: #999;
+      margin-bottom: 6px;
+    }
+  }
+
+  .rewards {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #374153;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    .title {
+      color: #999;
+      margin-bottom: 8px;
+    }
+    .count {
+      color: white;
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+    .wrap {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+
+      .item {
+        display: flex;
+        flex-direction: column;
+        padding: 4px 14px;
+        border-radius: 8px;
+
+        .detail {
+          color: #642;
+        }
+
+        .detail-dec {
+          color: #666;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+
+  .rank {
+    color: #ccc;
+    padding: 18px;
+    background: #81001e;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    .tab-title {
+      margin-right: 20px;
+    }
+
+    .select {
+      border-bottom: 1px solid red;
+    }
+  }
+}
