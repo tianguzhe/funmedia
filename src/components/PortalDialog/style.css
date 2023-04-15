@@ -1,0 +1,23 @@
+.pop-wrap {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+}
+
+.portal-sample {
+  position: absolute;
+  padding: 20px;
+  width: 200px;
+  height: 100px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  /* box-shadow: 0px 0px 20px 2px #ddd; */
+}
